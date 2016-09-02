@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1460207318 source:c:\cwork\easyloader\test\test.c
+	"../include/easyloader.h"
+	<meshlib.h>
+
+1472412283 c:\cwork\easyloader\include\easyloader.h
+	<windows.h>
+	<dlfcn.h>
+	<stdio.h>
+
+1472412411 source:c:\cwork\easyloader\resources\resource.rc
+

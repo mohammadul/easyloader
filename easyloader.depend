@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1460173230 source:/home/mohammadul/Programs/easyloader/src/easyloader.c
+	"../include/easyloader.h"
+
+1460173204 /home/mohammadul/Programs/easyloader/include/easyloader.h
+	<windows.h>
+	<dlfcn.h>
+	<stdio.h>
+
