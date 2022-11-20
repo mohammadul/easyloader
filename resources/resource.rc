@@ -1,0 +1,33 @@
+#ifndef RRESOURCE_H_INCLUDED
+#define RRESOURCE_H_INCLUDED
+
+1 VERSIONINFO
+FILEVERSION      0,1,0,0
+PRODUCTVERSION   0,1,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4" // Lang=US English, CharSet=Windows Multilingual
+        BEGIN
+            VALUE "Build",            "August 2016\0"
+            VALUE "Comments",         "A simple, easy-to-use, cross-platform C library to dynamically load shared libraries.\0"
+            VALUE "CompanyName",      "Sk. Mohammadul Haque\0"
+            VALUE "Developer",        "Sk. Mohammadul Haque\0"
+            VALUE "FileDescription",  "easyloader\0"
+            VALUE "FileVersion",      "0.1.0\0"
+            VALUE "InternalName",     "easyloader.dll\0"
+            VALUE "LegalCopyright",   "Copyright (C) 2016 Sk. Mohammadul Haque\0"
+            VALUE "OriginalFilename", "easyloader.dll\0"
+            VALUE "PrivateBuild",     "\0"
+            VALUE "ProductName",      "Easyloader\0"
+            VALUE "ProductVersion",   "0.1.0\0"
+            VALUE "SpecialBuild",     "\0"
+            VALUE "Support",          "http://www.mohammadulhaque.in\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1252 // 1252 = 0x04E4
+    END
+END
+#endif // RRESOURCE_H_INCLUDED
